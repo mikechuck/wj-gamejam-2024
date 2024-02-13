@@ -1,2 +1,52 @@
+TODO
+Musts:
+- Scenery
+	- Randomly generate spawn location and camp location
+	- Add logic to PCG_Forest graph to not spawn trees for certain areas (spawn location and camp location)
+	- Add dead animal at spawn location
+	- Footprints:
+		- Add second foot to footprints, 
+		- Add procedural generated spline for footprints
+			- make 3/4 splines all intertwining with each other. Maybe some sort of sin waves?
+	- Sound:
+		- Add ambient wind/trees sound above player
+		- Add distance animals/insects sounds
+		- Add persistent hide-behinds that will make noises and disapear when getting too close
+			- maybe other distant moving figures as well. silent might be creepy too?
+
+- Darkness meter:
+	- make simple to show meter
+	- meter value will go up when not near your pack
+	- when it hits certain values, add more visual effects on screen and creepy audio cues
+		- maybe have the hide-behinds and creatures start spawning closer as value increases
+		- torches get dimmer as value increases
+		- creepy indistinguishable noises as value increases
+
+- NPCs
+	- Use or create better model, use animations from mixamo
+
+- Title screen
+	- simple picture with title and start button
+
+- Start sequence
+	- UI/sound prompts in begining to add context
+
+- End game
+	- UI/sound/gameplay prompts at arrive of camp to indicate you're safe. Maybe sun comes up?
+
+Nice to haves:
+- Fix texture streaming max error (need to compress textures to a lower res)
+	- https://stefanperales.com/blog/ue5-quick-tip-texture-streaming-pool-over-budget/
+
 AI
 - behaviour trees for more complex AI
+
+
+Trees:
+- spruce_half_01
+- spruce_half_03_low
+- spruce_full_03
+- M_Grass01
+
+
+leftoff: create a verybasic static mesh tree in blender (cylinder for now with bark material)dcds
