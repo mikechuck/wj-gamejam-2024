@@ -49,4 +49,16 @@ Trees:
 - M_Grass01
 
 
-leftoff: create a verybasic static mesh tree in blender (cylinder for now with bark material)dcds
+Sounds:
+- https://freesound.org/
+- https://www.zapsplat.com/
+
+
+Leftoff:
+- Add clothes to NPC model in blender
+	- Spear
+	- shirt, pants (fur looking)
+	- mask/hat/hood?
+	- shoes
+- Change the material for the model (flat skin color, none of the line shadows, etc)
+- Add facial features. Picture or separate parts of model?
