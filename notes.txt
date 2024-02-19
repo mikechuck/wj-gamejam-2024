@@ -54,6 +54,34 @@ Sounds:
 - https://www.zapsplat.com/
 
 
+Gameplay flow:
+- Title screen: "Press enter"
+	- Pressing enter will load the Gameplay level
+- Setup level
+	- Spawn npc's, character, etc
+	- Create sounds, etc
+	- Start decreasing direct light lux from 1 and orange (dusk) to 0.2 and gray
+- Black screen fades away
+- Text prompt fades in "We've spent too much time hunting, we need to get back" (etc, expand)
+- When player leaves the spawn zone:
+	- Timer starts
+	- NPCs start following
+	- Enable the darkness meter
+- Follow the footprints until you get back to camp
+	- As the timer goes on, increase darkness meter
+	- As darkness meter increases, start doing creepy things
+		- Hide-behinds will spawn at random trees, despawn if player gets close (still pretty far)
+		- Start will large creature sounds in the distance
+		- Increasingly make this create get closer and closer
+- When meter high enough, all your torches go out and creature gets you
+	- Do some creepy quote about the ancients or something
+	- Fade out and return to title screen level
+
+
+Credits:
+- figure out how people credits others for assets/sounds
+
+
 Leftoff:
 - Add clothes to NPC model in blender
 	- Spear
