@@ -92,4 +92,9 @@ Leftoff:
 - Add facial features. Picture or separate parts of model?
 
 (B=110,G=165,R=255,A=255)
-(B=110,G=165,R=255,A=255)
+(B=110,G=165,R=255,A=255)]
+
+
+
+50
+25
